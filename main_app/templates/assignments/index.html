@@ -7,8 +7,8 @@
 <div class="row-container">
 {% for assignment in assignments %}
     <div class="box horz-md-box">
-        <h3><a href="{{assignment.id}}">{{ assignment.title }}</a></h3>
-        <p>Due Date: {{ assignment.due_date }}</p>
+        <h2><a href="{{assignment.id}}">{{ assignment.title }}</a></h2>
+        <p><b>Due Date:</b> {{ assignment.due_date }}</p>
     </div>
 {% endfor %}
 </div>

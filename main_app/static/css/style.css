@@ -73,6 +73,12 @@ form{
 .text-center{
     text-align: center;
 }
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
 .row-container{
     display: flex;
     justify-content: center;

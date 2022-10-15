@@ -7,8 +7,8 @@
 <div class="row-container">
 {% for course in courses %}
     <div class="box assignment-box">
-        <h3><a href="{{course.id}}">{{ course.title }}</a></h3>
-        <p>Start Date: {{ course.start_time }}</p>
+        <h2><a href="{{course.id}}">{{ course.title }}</a></h2>
+        <p><b>Start Date:</b> {{ course.start_time }}</p>
     </div>
 {% endfor %}
 </div>
